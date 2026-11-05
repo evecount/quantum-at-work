@@ -1,5 +1,5 @@
 site_name: "Quantum at Work — Enterprise Feasibility Companion"
-site_description: "Hands-on technical companion for Eve Count's Open Session (10 Dec 2026) and Enterprise Quantum Cohorts: problem triage, classical baselines, QUBO formulation, and hardware-agnostic governance."
+site_description: "Hands-on technical companion for Eve Count's Open Session (Rolling Registration) and Enterprise Quantum Cohorts: problem triage, classical baselines, QUBO formulation, and hardware-agnostic governance."
 site_url: https://evecount.github.io/quantum-at-work/
 repo_url: https://github.com/evecount/quantum-at-work
 repo_name: evecount/quantum-at-work

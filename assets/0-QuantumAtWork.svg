@@ -16,7 +16,7 @@
   <line x1="64" y1="78" x2="852" y2="78" stroke="#CEC7B8" stroke-width="1"/>
   <text x="64" y="56" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" fill="#1B3022" letter-spacing="0.14em">EVE COUNT QUANTUM SYSTEMS · /WORK</text>
   <rect x="648" y="36" width="204" height="28" rx="4" fill="#EFECE6" stroke="#B8B0A0" stroke-width="1"/>
-  <text x="750" y="54" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="10.5" font-weight="600" fill="#9B3B22" text-anchor="middle" letter-spacing="0.08em">10 DEC 2026 · SINGAPORE / HYBRID</text>
+  <text x="750" y="54" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="10.5" font-weight="600" fill="#9B3B22" text-anchor="middle" letter-spacing="0.08em">ROLLING COHORT · SINGAPORE / HYBRID</text>
 
   <!-- Eyebrow -->
   <text x="64" y="138" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700" fill="#9B3B22" letter-spacing="0.12em">OPEN SESSION & ENTERPRISE COHORT COMPANION</text>

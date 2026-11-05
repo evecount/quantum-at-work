@@ -27,6 +27,6 @@ assert gate.approved_for_pilot is True
 
 ## Engage with Eve Count Quantum Systems
 
-- **10 December 2026 Open Session:** [*Quantum at Work: Where Enterprises Can Actually Use Quantum Today*](https://evecount.com/work/events) — Open registration for enterprise leaders, architects, and technical builders.
+- **Open Session:** [*Quantum at Work: Where Enterprises Can Actually Use Quantum Today*](https://evecount.com/work/contact?interest=cohort) — Open registration for enterprise leaders, architects, and technical builders.
 - **2-Day Corporate Intensive:** [Explore the Cohort & Private Team Syllabus](https://evecount.com/work/intensive)
 - **Enterprise Feasibility Diagnostic:** [Submit a Workload Intake or Request a Scoping Call](https://evecount.com/apply)

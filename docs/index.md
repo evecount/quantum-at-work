@@ -6,17 +6,17 @@ hero_alt: "Quantum at Work — Open Session & Enterprise Cohort Companion by Eve
 
 # Quantum at Work: Where Enterprises Can Actually Use Quantum Today
 
-<p class="workshop-eyebrow">Eve Count Quantum Systems · Gwen Yi &amp; Benjamin Lim · 10 December 2026 Open Session &amp; Enterprise Cohorts</p>
+<p class="workshop-eyebrow">Eve Count Quantum Systems · Gwen Yi &amp; Benjamin Lim · Open Session &amp; Enterprise Cohorts</p>
 
 <p class="workshop-lead">Quantum readiness is an engineering and mathematical discipline, not a hardware procurement exercise. Separate coupled combinatorial bottlenecks from linear workloads, establish an honest classical baseline, and require measurable operational evidence before committing capital.</p>
 
 [Start Chapter 01](operational-bottleneck.md){ .md-button .md-button--primary }
 [Explore the 8 Chapters](#choose-your-chapter){ .md-button }
-[10 Dec Open Session & Cohorts](https://evecount.com/work/events){ .md-button }
+[Sign Up for Open Session & Cohorts](https://evecount.com/work/contact?interest=cohort){ .md-button }
 
 ## Welcome
 
-This technical companion turns the core methodology from **Quantum at Work** into an inspectable, hands-on engineering walkthrough. You can follow the eight chapters alongside the **10 December 2026 Open Session** or work through the exercises with your architecture and operations teams during our **2-Day Corporate Intensive**.
+This technical companion turns the core methodology from **Quantum at Work** into an inspectable, hands-on engineering walkthrough. You can follow the eight chapters alongside the **Open Session** or work through the exercises with your architecture and operations teams during our **2-Day Corporate Intensive**.
 
 The running example models a **constrained enterprise allocation and scheduling bottleneck** (applicable to berth and crane scheduling, pit-to-port blending, fleet routing, and intraday liquidity allocation). A deterministic Python harness—not vendor marketing claims—decides whether a workload belongs on a classical solver, a classical metaheuristic, or a hybrid QUBO formulation. No paid quantum cloud account, API key, or proprietary SDK is required to run the exercises.
 
@@ -87,6 +87,6 @@ Quantum and hybrid solvers can unlock measurable basis-point improvements on tig
   </a>
   <a class="workshop-card" href="resources/">
     <strong>Continue learning · Cohorts &amp; Briefings</strong>
-    <span>Open Session registration (10 Dec 2026), Corporate Intensive syllabus, and diagnostic intake.</span>
+    <span>Open Session registration (Rolling Registration), Corporate Intensive syllabus, and diagnostic intake.</span>
   </a>
 </div>

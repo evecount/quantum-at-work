@@ -8,7 +8,7 @@ Use these links to continue from this technical companion into Eve Count's live 
 
 ## Live Events & Cohorts
 
-- **[10 December 2026 Open Session — *Quantum at Work: Where Enterprises Can Actually Use Quantum Today*](https://evecount.com/work/events)**  
+- **[Open Session — *Quantum at Work: Where Enterprises Can Actually Use Quantum Today*](https://evecount.com/work/contact?interest=cohort)**  
   Our flagship open session designed for enterprise leaders, operations heads, and technical architects. Cross-listed on Luma, Eventbrite, and Meetup.
 - **[2-Day Corporate Intensive](https://evecount.com/work/intensive)**  
   Structured two-day practitioner cohort covering problem triage, mathematical formulation, classical baseline benchmarking, and vendor-neutral governance.

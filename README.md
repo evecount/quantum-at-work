@@ -11,7 +11,7 @@ Practice & Cohort Portal: **[https://evecount.com/work](https://evecount.com/wor
 
 ## About This Repository
 
-This repository is the hands-on technical and executive companion for **Eve Count Quantum Systems' Open Session (10 December 2026)** and **2-Day Corporate Intensive Cohorts**, led by **Gwen Yi** and **Benjamin Lim**.
+This repository is the hands-on technical and executive companion for **Eve Count Quantum Systems' Open Session** and **2-Day Corporate Intensive Cohorts**, led by **Gwen Yi** and **Benjamin Lim**.
 
 Rather than starting with hardware hype or vendor-locked SDKs, this companion walks enterprise technology leaders, operations architects, and quantitative engineers through an **inspectable, eight-stage feasibility discipline**:
 
