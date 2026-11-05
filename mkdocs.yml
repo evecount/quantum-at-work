@@ -1,0 +1,72 @@
+site_name: "Quantum at Work — Enterprise Feasibility Companion"
+site_description: "Hands-on technical companion for Eve Count's Open Session (10 Dec 2026) and Enterprise Quantum Cohorts: problem triage, classical baselines, QUBO formulation, and hardware-agnostic governance."
+site_url: https://evecount.github.io/quantum-at-work/
+repo_url: https://github.com/evecount/quantum-at-work
+repo_name: evecount/quantum-at-work
+copyright: "Eve Count Quantum Systems · Independent Advisory · Evidence Before Advantage"
+strict: true
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  font: false
+  favicon: assets/images/favicon.png
+  logo: assets/images/favicon.png
+  features:
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - "01 · Start with an operational bottleneck": operational-bottleneck.md
+  - "02 · The classical baseline first": classical-baseline.md
+  - "03 · Formulating constraints & penalties": formulating-constraints.md
+  - "04 · Classical-to-quantum triage": hybrid-qubo-triage.md
+  - "05 · Data, latency & SLA boundaries": latency-and-data-boundaries.md
+  - "06 · Cryptographic exposure vs. optimization": cryptographic-exposure.md
+  - "07 · Benchmarking without vendor hype": benchmarking-without-hype.md
+  - "08 · Repeatable enterprise capability": enterprise-capability.md
+  - Resources & Cohorts: resources.md
+
+hooks:
+  - hooks/assets.py
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/workshop.css
+
+extra_javascript:
+  - javascripts/accessibility.js

@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  {{ super() }}
+{% endblock %}
+
+{% block content %}
+  {% if page.meta.hero %}
+    <figure class="workshop-hero">
+      <a href="{{ page.meta.hero | url }}" aria-label="Open full-size architectural card: {{ page.title }}">
+        <img src="{{ page.meta.hero | url }}"
+             alt="{{ page.meta.hero_alt }}"
+             width="916" height="516" fetchpriority="high">
+      </a>
+      <figcaption>Eve Count Quantum Systems · {{ page.title }}. Select the architectural plate to inspect full size.</figcaption>
+    </figure>
+  {% endif %}
+  {{ super() }}
+  {% if page.file.src_uri != "404.md" %}
+    <nav class="workshop-pagination" aria-label="Companion chapter navigation">
+      {% set previous = page.previous_page %}
+      {% set next = page.next_page %}
+      <a class="workshop-page-link" rel="prev"
+         href="{{ previous.url | url if previous else 'resources/' | url }}">
+        <span class="workshop-page-direction">← Previous</span>
+        <span>{{ previous.title if previous else "Resources & Cohorts" }}</span>
+      </a>
+      <a class="workshop-page-link" rel="next"
+         href="{{ next.url | url if next else '.' | url }}">
+        <span class="workshop-page-direction">{{ "Next chapter →" if next else "Return to home →" }}</span>
+        <span>{{ next.title if next else "Companion home" }}</span>
+      </a>
+    </nav>
+  {% endif %}
+{% endblock %}
+
+{% block footer %}
+  <section class="workshop-connect" aria-labelledby="workshop-connect-title">
+    <div class="md-grid">
+      <h2 id="workshop-connect-title">Eve Count Quantum Systems · Enterprise Practice</h2>
+      <p>
+        Join our next Open Session on <strong>10 December 2026</strong> (<a href="https://evecount.com/work/events">Register on evecount.com/work/events</a>),
+        explore the <a href="https://evecount.com/work/intensive">2-Day Corporate Intensive</a>, or request an
+        <a href="https://evecount.com/apply">Enterprise Feasibility Diagnostic</a>.
+      </p>
+    </div>
+  </section>
+  {{ super() }}
+{% endblock %}
