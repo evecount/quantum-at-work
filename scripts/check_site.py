@@ -19,8 +19,7 @@ def main() -> None:
     if len(md_files) < 10:
         raise SystemExit(f"Expected at least 10 markdown chapters in docs/, found {len(md_files)}.")
 
-    code_pattern = re.compile(r"```python
-(.*?)```", re.DOTALL)
+    code_pattern = re.compile(r"```python\r?\n(.*?)```", re.DOTALL)
     executed_blocks = 0
 
     for md in md_files:
@@ -32,9 +31,7 @@ def main() -> None:
                 exec(snippet, ns, ns)
                 executed_blocks += 1
             except Exception as exc:
-                raise SystemExit(f"Python snippet failed in {md.name}:
-{snippet}
-Error: {exc}") from exc
+                raise SystemExit(f"Python snippet failed in {md.name}:\n{snippet}\nError: {exc}") from exc
 
     print(f"Verified {len(md_files)} markdown chapters and executed {executed_blocks} runnable Python snippets.")
 
